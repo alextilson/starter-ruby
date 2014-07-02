@@ -1,6 +1,6 @@
-# Welcome to the Ruby Guild!
+# Welcome to the Ruby Starter!
 
-As members of the Ruby guild, you will be working through the challenges of TwilioQuest using the Ruby programming language.  This project is pre-configured to do some interesting Twilio stuff using Ruby and the light-weight Sinatra web framework.
+This project is pre-configured to do some interesting Twilio stuff using Ruby and the light-weight Sinatra web framework.
 
 ## Setting Up
 
@@ -26,16 +26,9 @@ On Windows, the easiest way to set permanent environment variables (as of Window
     setx TWILIO_AUTH_TOKEN XXXXXXXXX
     setx TWILIO_NUMBER +16518675309
 
-## Developing on Nitrous.IO
-
-Start hacking on this app on [Nitrous.IO](https://www.nitrous.io/?utm_source=github.com&utm_campaign=twilio-starter-ruby&utm_medium=hackonnitrous) in seconds:
-
-[![Hack twilio/starter-ruby on
-Nitrous.IO](https://d3o0mnbgv6k92a.cloudfront.net/assets/hack-l-v1-3cc067e71372f6045e1949af9d96095b.png)](https://www.nitrous.io/hack_button?source=embed&runtime=rails&repo=twilio%2Fstarter-ruby&file_to_open=README.nitrous.md)
-
 ## Running the application locally
 
-[Download the project source code directly](https://github.com/twilio/starter-ruby/archive/master.zip) or [clone the repository on GitHub](https://github.com/twilio/starter-ruby).  Navigate to the folder with the source code on your machine in a terminal window.
+[Download the project source code directly](https://github.com/Beans0063/starter-ruby/archive/master.zip) or [clone the repository on GitHub](https://github.com/Beans0063/starter-ruby).  Navigate to the folder with the source code on your machine in a terminal window.
 
 You will first need to install the application's dependencies.  You can do this manually using RubyGems, or you can install them using [Bundler](http://bundler.io/) and the include gem file.  To install via bundler, type:
 
@@ -49,5 +42,5 @@ To install the gems manually (if you don't know what bundler is and/or don't hav
 Now, you should be able to launch the application.  From your terminal, run `ruby app.rb`.  This should launch your sinatra application on port 4567 - [visit that URL on your local host](http://localhost:4567/).  Enter your mobile number in the fields provided, and test both SMS text messages and phone calls being sent to the mobile number you provide.
 
 
-## Begin Questing!
-This is but your first step into a larger world.  [Return to TwilioQuest](http://quest.twilio.com) to continue your adventure.  Huzzah!
+## Begin Learning Twilio!
+This is your first step into the Twilio learning program.  Return to the site to continue on.  Huzzah!
