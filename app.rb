@@ -26,7 +26,7 @@ post '/message' do
   client.account.sms.messages.create(
     :from => TWILIO_NUMBER,
     :to => params[:to],
-    :body => 'Good luck on your Twilio quest!'
+    :body => 'Have fun with your Twilio development!'
   )
 
   # Send back a message indicating the text is inbound
@@ -39,7 +39,7 @@ post '/call' do
   client.account.calls.create(
     :from => TWILIO_NUMBER,
     :to => params[:to],
-    :url => 'http://twimlets.com/message?Message%5B0%5D=http://demo.kevinwhinnery.com/audio/zelda.mp3'
+    :url => 'http://twilio-elearning.herokuapp.com/starter/voice.php'
   )
 
   # Send back a text string with just a "hooray" message
@@ -51,7 +51,7 @@ get '/hello' do
   # Build a TwiML response
   response = Twilio::TwiML::Response.new do |r|
     r.Say 'Hello there! You have successfully configured a web hook.'
-    r.Say 'Good luck on your Twilio quest!', :voice => 'woman'
+    r.Say 'Have fun with your Twilio development!', :voice => 'woman'
   end
 
   # Render an XML (TwiML) document

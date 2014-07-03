@@ -3,7 +3,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 /* Global Styles */
 html, body {
-  background: url(/whitey.png) center top repeat;
+  background: url(whitey.png) center top repeat;
 }
 
 html, body, * {
@@ -78,7 +78,7 @@ button:hover, input[type=button]:hover, input[type=submit]:hover {
 }
 
 #flash {
-    color:yellow;
+  color:#000;
     text-align:center;
     border:2px dashed;
     margin-bottom:20px;
@@ -86,7 +86,7 @@ button:hover, input[type=button]:hover, input[type=submit]:hover {
 }
 
 #flash p, #flash a {
-    color:yellow;
+  color: rgb(6, 92, 27);
     margin:0;
 }
 
