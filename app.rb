@@ -23,7 +23,7 @@ end
 # Handle a form POST to send a message
 post '/message' do
   # Use the REST API client to send a text message
-  client.account.sms.messages.create(
+  client.messages.create(
     :from => TWILIO_NUMBER,
     :to => params[:to],
     :body => 'Have fun with your Twilio development!'
@@ -36,7 +36,7 @@ end
 # Handle a form POST to make a call
 post '/call' do
   # Use the REST API client to make an outbound call
-  client.account.calls.create(
+  client.calls.create(
     :from => TWILIO_NUMBER,
     :to => params[:to],
     :url => 'http://twilio-elearning.herokuapp.com/starter/voice.php'
